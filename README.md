@@ -1,4 +1,16 @@
-# yarb (Yet Another Rss Bot)
+# yarb-feishu
+
+每日安全资讯的 RSS 聚合与飞书群推送。本仓库是 [yarb](https://github.com/Vu1nT0tal/yarb) 的个人部署分支，不是上游项目的官方发行版。
+
+[今日资讯](today.md) · [历史存档](archive) · [定时任务](.github/workflows/action.yml)
+
+## 本分支的用途
+
+- 聚合公开安全资讯，按日生成 Markdown 存档。
+- 通过 GitHub Actions 定时运行，并向配置的飞书群机器人推送。
+- 复用上游的 RSS 与多平台机器人实现；不将上游功能描述为本分支原创。
+
+## 上游安装与使用说明
 
 一个方便获取每日安全资讯的爬虫和推送程序。支持导入 opml 文件，因此也可以订阅其他任何 RSS 源。
 
@@ -15,8 +27,8 @@
 ## 安装
 
 ```sh
-$ git clone https://github.com/VulnTotal-Team/yarb.git
-$ cd yarb && ./install.sh
+$ git clone https://github.com/Strugg1e/yarb-feishu.git
+$ cd yarb-feishu && ./install.sh
 ```
 
 ## 运行
